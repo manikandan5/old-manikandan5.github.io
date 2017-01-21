@@ -1,11 +1,167 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-  <head>
-    <title>
-      Manikandan Murugesan
-    </title>  
-  </head>
-  <body>
-    Hello World
-  </body>
+	<head>
+		<title>Manikandan Murugesan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+				<img class="icon fa-paper-plane-o" src="images/me.png" width="20%"></img>
+				<h1>Hi! I am Manikandan<br></h1>
+				<p>I am a software developer. I study Masters in Computer Science at <br> Indiana University, Bloomington. I am a hobbyist photographer.</p>
+				<p>You can find my resume <a href="resume.pdf">here</a></p>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<header class="major container 75%">
+					<h2>My Projects</h2>
+				</header>
+
+				<div class="box alt container">
+					<section class="feature left">
+						<a href="https://github.com/manikandan5/SceneClassification" class="image icon"><img src="images/SceneClassification.jpg" width="100%" alt="Link to Scene classification repository" /></a>
+						<div class="content">
+							<h3>Scene Classification</h3>
+							<p>Scene classification is a problem under the domain of object recognition. Scene classification is a very interesting problem of automatically labeling an image among a set of semantic categories. To achieve this, we had implemented a Bag Of Words model and used Cornell's SVMLight to train and classify the data. <br>(C++)</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="https://github.com/manikandan5/POSTagger" class="image icon"><img src="images/POS.jpg" width="100%" height="20px" alt="" /></a>
+						<div class="content">
+							<h3>Part of Speech tagger</h3>
+							<p>Program which classifies the given sentence into its respective part of speech using Bayesian network models and Natural Language Processing techniques.<br> (Python)</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="https://github.com/manikandan5/OperatingSystem-XINU" class="image icon"><img src="images/XINU.jpg" width="100%"alt="" /></a>
+						<div class="content">
+							<h3>Operating System</h3>
+							<p>XINU OS on a Beagle Bone Black box with networking and simple file system. <br>(C)</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="https://github.com/manikandan5/StereoImages" class="image icon"><img src="images/stereo.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Stereo images</h3>
+							<p>The program creates a stereo image from the normal image and the disparity map from the same view. If a seed image is given instead of a disparity map is not given, it tries to estimate the disparity using Markov Random Field energy minimization.<br>(C++)</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="https://github.com/manikandan5/Object-detection" class="image icon"><img src="images/objectDetection.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Object detection</h3>
+							<p>The project classifies the objects in every image into a pre-defined class. In this project, we have compared the results found using a simple baseline(subsampled pixel points passed to a SVM), Principal Component Analysis (PCA),  Haar-like features (Viola-Jones), Bag Of Words model and a Convolutional Neural Network.<br>(C++)</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="https://github.com/manikandan5/ImageWarping-Matching-Stitching" class="image icon"><img src="images/homography.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Image Warping, Matching and Stitching</h3>
+							<p>Given two images of the same object, but of different view, the program tries to find the matching SIFT points. Then it estimates the homography and performs the projective transformation so that the second image is transformed into the same view as the first image.<br>(C++)</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="https://github.com/manikandan5/OMR" class="image icon"><img src="images/OMR.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Optical Music Note Recognition</h3>
+							<p>The code finds the edges on the Musical note images first by performing convolution with a sobel filter. Then it tries to find the coordinates of the  notes occur using template matching. It finds the location of staff lines using Hough transform. With this data, it estimates the correct note.<br> (C++)</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="https://github.com/manikandan5/Rameses" class="image icon"><img src="images/rameses.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Rameses Player</h3>
+							<p>Rameses is a two player game played on a board of NxN. It is similar to Tic-Tac-Toe. But instead of X's and O's, you have just X. When the player hits N X's in a line, player loses. It is the opposite of Tic-Tac-Toe. This is an AI player which tries to find the optimal play using Iterative Deepening<br>(Python)</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="https://github.com/manikandan5/Zacate" class="image icon"><img src="images/zacate.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Zacate Player</h3>
+							<p>Zacate is traditional dice game played in Latin America. It is a game of chance. The rules of the game can be found in the github repository. The code here is an AI program which takes certain decisions to maximize the score. This program competed against other programs and came 4th in a class of 64.<br>(Python)</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="https://github.com/manikandan5/ImageOrientation" class="image icon"><img src="images/imageOrientation.jpg" width="100%" alt="" /></a>
+						<div class="content">
+							<h3>Image Orientation finder</h3>
+							<p>The program tries to find the right orientation of the given image. It trains on the given dataset and classifies the orientation using K-nearest neighbors and Neural networks. <br>(Python)</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a class="image icon"><img src="images/zigbee.jpg" width="90%" alt="" /></a>
+						<div class="content">
+							<h3>ZigBee based Home Monitoring System</h3>
+							<p>The project aims at the ability to control devices at home from your smartphone. An app shows the devices connected to the Zigbee transmitter placed at home. This sends signal to the receiver connected to the device which switches it off. The project is not yet complete and it is still being worked on.</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a class="image icon"><img src="images/flight.jpg" width="90%" alt="" /></a>
+						<div class="content">
+							<h3>Flight Scheduling System</h3>
+							<p>Done mostly in C concentrating on the data structure part, this system will ensure that there are no accidents while flight landing and take-off.</p>
+						</div>
+					</section>
+				</div>
+
+				<footer class="major container 75%">
+					<h3>To see some of the photos I have taken, please feel free to visit my Flickr Profile</h3>
+					<p></p>
+					<ul class="actions">
+						<li><a href="https://www.flickr.com/photos/125597013@N02/" class="button">View Profile</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container 75%">
+
+					<header class="major last">
+						<h2>Contact</h2>
+					</header>
+
+					<p>
+						Have anything to say to me? Feel free to drop me a mail by using the following link:
+					</p>
+                    <ul class="actions">
+						<li><a href="mailto:manikandan.m@live.co.uk" class="button">Send Mail</a></li>
+					</ul>        
+					<br>
+					<ul class="icons">
+						<li><a href="https://twitter.com/fearthefire" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/manikandan0509" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/manikandan_murugesan/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.iu.edu/murugesm" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://in.linkedin.com/in/murugesanm" class="icon fa-linkedin"><span class="label">Linked In</span></a></li>
+					</ul>
+
+					
+
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
+<!--
+	Directive by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
